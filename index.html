@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciclista Tio Pinguinho | loja de bicicleta em Campo Bom</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Ciclista Tio Pinguinho é a loja especializada em bicicletas, peças e acessórios. Confira as melhores ofertas e solicite seu orçamento grátis!">
+  <meta name="keywords"
+    content="bicicletas, peças, acessórios, Dream Fitness, Campo Bom, RS, ciclista, manutenção, assistência técnica, tio pinguinho, ciclista perto de mim, ciclista campo bom, ciclista em campo bom">
+  <meta name="author" content="Gabriela Baptista Bade">
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Ciclista Tio Pinguinho | Bicicletas, Peças e Assistência Técnica em Campo Bom">
+  <meta property="og:description"
+    content="As melhores ofertas em bicicletas, peças e acessórios. Solicite um orçamento.">
+  <meta property="og:image" content="assets/logo-header.png">
+  <meta property="og:url" content="https://seusite.com">
+  <meta property="og:type" content="website">
+  <!-- Fonts e CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Ícone da aba -->
+  <link rel="icon" href="assets/icon.png" type="image/png">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <section class="elements-header">
+      <a href="#" class="logo" aria-label="Página Inicial"><img src="assets/logo-mobile.png"
+          alt="Logo da Floricultura Bloom"></a>
+      <nav class="navbar" aria-label="Menu de Navegação">
+        <a href="#">Início</a>
+        <a href="#about">Sobre</a>
+        <a href="#menu">Produtos</a>
+        <a href="#review">Depoimentos</a>
+        <a href="#address">Localização</a>
+      </nav>
+      <div class="menu-btn" onclick="toggleNavbar()" aria-label="Abrir menu de navegação">☰</div>
+    </section>
+  </header>
+
+  <!-- Home -->
+  <main>
+    <div class="home-container">
+      <section id="home">
+        <div class="content">
+          <h2>ACELERE OS PEDAIS E VENHA CONFERIR</h2>
+          <h1>BICICLETAS, PEÇAS E ACESSÓRIOS</h1>
+          <p>AS MELHORES OFERTAS É AQUI</p>
+
+          <button class="btn" onclick="showForm()" aria-label="Abrir formulário de contato">Entre em contato</button>
+        </div>
+      </section>
+    </div>
+    <!-- Form -->
+    <div class="mascara-formulario" onclick="hideForm()"></div>
+    <section>
+      <form id="formularioFaleConosco" class="formulario-fale-conosco">
+        <input id="nome" placeholder="Seu nome" type="text" name="nome" required aria-labelledby="nome-label">
+        <input id="telefone" placeholder="Seu telefone" type="tel" name="telefone" required
+          aria-labelledby="telefone-label">
+        <textarea id="duvida" placeholder="Escreva o que você precisa para orçamento aqui" name="duvida" required
+          aria-labelledby="duvida-label"></textarea>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Sobre -->
+    <section class="about" id="about" aria-labelledby="about-title">
+      <h2 class="title" id="about-title">Sobre <span>Nós</span></h2>
+      <div class="row">
+        <div class="container-image">
+          <img src="assets/about-img.jpeg" alt="Ambiente acolhedor da Floricultura Bloom">
+        </div>
+        <div class="content">
+          <h3>Por Que Escolher o Tio Pinguinho?</h3>
+          <p>Fundado em 1979, Ciclista Tio Pinguinho é uma empresa renomada em Campo Bom, especializada no mercado de
+            bicicletas, peças e acessórios. Com mais de quatro décadas de experiência, nos dedicamos à excelência e à
+            total satisfação de nossos clientes.</p>
+          <a href="#menu" class="btn" aria-label="Veja Nosso Catalogo">Veja Nosso Catalogo</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Produtos -->
+    <section class="menu" id="menu" aria-labelledby="menu-title">
+      <h2 class="title" id="menu-title">Nossos <span>Produtos</span></h2>
+      <div class="box-container">
+
+        <article class="box">
+          <img src="assets/bicicleta-1.png" alt="Buquê de Rosas">
+          <h3>Bicicleta Slim South</h3>
+          <p>A South Slim combina estilo minimalista, desempenho eficiente e durabilidade em uma bicicleta leve.
+          Com
+          componentes de qualidade, oferece ótimo custo-benefício, perfeita para ciclistas que valorizam economia sem
+          abrir mão da qualidade.</p>
+          <a href="https://wa.me/5548991056014?text=Olá, gostaria de saber mais sobre a Bicicleta Slim da South. Quanto custa?" class="btn">Saber Mais</a>
+        </article>
+
+        <article class="box">
+          <img src="assets/bicicleta-2.png" alt="Arranjo de Tulipas">
+          <h3>Bicicleta Voltz South</h3>
+          <p>A South Voltz une estilo e desempenho, equipada com componentes Shimano de alta qualidade, garantindo
+          uma pedalada suave e confiável para entusiastas apaixonados por ciclismo.</p>
+          <a href="https://wa.me/5548991056014?text=Olá, gostaria de saber mais sobre Bicicleta Voltz da South. Quanto custa?"
+            class="btn">Saber Mais</a>
+        </article>
+
+        <article class="box">
+          <img src="assets/bicicleta-3.png" alt="Orquídeas">
+          <h3>Bicicleta Legend South</h3>
+          <p>A South Legend é a escolha definitiva para entusiastas do MTB. Com um quadro resistente, suspensão
+          dianteira e câmbios Shimano, oferece desempenho superior em trilhas desafiadoras.</p>
+          <a href="https://wa.me/5548991056014?text=Olá, gostaria de saber mais sobre Bicicleta Legend da South. Quanto custa?." class="btn">Saber Mais</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="review" id="review" aria-labelledby="review-title">
+      <h2 class="title" id="review-title">Depoimentos dos <span>Clientes</span></h2>
+      <div class="box-container">
+
+        <article class="box" role="article">
+          <img class="quote" src="assets/quote-img.png" alt="Comentário de cliente">
+          <p>"Excelente atendimento, perguntei para conhecidos onde levar minha bike e todos recomendaram o ciclista tio
+            pinguinho!!"</p>
+          <img src="assets/pic-1.png" alt="Foto do cliente Laura Mendes" class="user">
+          <h3>Bruna Luana</h3>
+          <img src="assets/star.png" alt="avaliação 5 estrelas" width="100">
+        </article>
+
+        <article class="box" role="article">
+          <img class="quote" src="assets/quote-img.png" alt="Comentário de cliente">
+          <p>"Experiência incrível! O atendimento é super atencioso. Estou iniciando no mundo do ciclismo o tio pinguinho tirou todas
+          minhas dúvidas, bora pedalar"</p>
+          <img src="assets/pic-2.png" alt="Foto do cliente Laura Mendes" class="user">
+          <h3>Samuel Rodrigues</h3>
+          <img src="assets/star.png" alt="avaliação 5 estrelas" width="100">
+        </article>
+
+        <article class="box" role="article">
+          <img class="quote" src="assets/quote-img.png" alt="Comentário de cliente">
+          <p>"Tenho uma esteira da Dream Fitness que estava com problema, o tio pinguinho resolveu e ainda me entregou reformada parecia nova"</p>
+          <img src="assets/pic-3.png" alt="Foto do cliente Fernanda Souza" class="user">
+          <h3>Fernanda Lima</h3>
+          <img src="assets/star.png" alt="avaliação 5 estrelas" width="100">
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Localização -->
+    <section class="address" id="address" aria-labelledby="address-title">
+      <h2 class="title" id="address-title">Onde <span>Estamos</span></h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.194496104442!2d-51.07429878933505!3d-29.68514027500272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951941344f09aa45%3A0x74743637694296b1!2sCiclista%20tio%20pinguinho!5e0!3m2!1spt-BR!2sbr!4v1716574727695!5m2!1spt-BR!2sbr"
+        width="300" height="200"
+        style="border: 3px solid #00aeeea8; border-radius: 10px; margin-top: 10px; margin-bottom: 2rem;"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer" role="contentinfo">
+    <div class="share">
+      <a href="mailto:ciclistatiopinguinho@yahoo.com.br" target="_blank" aria-label="Enviar Email">
+        <img src="https://img.icons8.com/?size=100&id=Y2GfpkgYNp42&format=png&color=1C4587" alt="Email">
+
+      </a>
+      <a href="https://www.instagram.com/tiopinguinho/" target="_blank" aria-label="Ir para Instagram">
+        <img src="https://img.icons8.com/?size=100&id=dz63urxyxSdO&format=png&color=1C4587" alt="Instagram">
+      </a>
+      <a href="https://www.facebook.com/CiclistaTioPinguinho" target="_blank" aria-label="Ir para Facebook">
+        <img src="https://img.icons8.com/?size=100&id=118491&format=png&color=1C4587" alt="Facebook">
+      </a>
+      <a href="https://wa.me/5551998393149?text=Olá+Tio+Pinguinho+,+venho+através+do+seu+site+!" target="_blank"
+        aria-label="Chamar no Whatsapp">
+        <img src="https://img.icons8.com/?size=100&id=16733&format=png&color=1C4587" alt="Whatsapp">
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
