@@ -2,7 +2,7 @@
   --main-color: #0AAAEA;
   --white: #FFFFFF;
   --black: #4C4B46;
-  --bg:#d8f1ff;
+  --bg: #d8f1ff;
   --border: #f0f8ff;
   font-size: 10px;
 }
@@ -132,7 +132,7 @@ header {
 }
 
 .btn:hover {
-  transform: scale(1.05);
+  transform: scale(2.9);
   opacity: 0.9;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
@@ -379,13 +379,13 @@ textarea {
   margin-bottom: 60px;
   padding: 20px 0;
   font-size: 14px;
-  color: #555;
-  background-color: #f9f9f9;
+  color: var(--black);
+  background-color: var(--white);
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .footer-text a {
-  color: #0aaaea;
+  color: #E91D28;
   text-decoration: none;
   font-weight: bold;
 }
