@@ -30,6 +30,14 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+  user-select: none;
+  /* Evita seleção */
+  pointer-events: none;
+  /* Desabilita clique */
+  -webkit-user-drag: none;
+  /* Evita arrasto em navegadores WebKit */
+}
 
 header {
   position: fixed;
@@ -187,9 +195,17 @@ header {
 }
 
 .about .container-image img {
-  opacity: 0.8;
+  opacity: 0.9;
   width: 100%;
-  border-radius: 0.5rem;
+  user-select: none;
+  /* Evita seleção */
+  pointer-events: none;
+  /* Desabilita clique */
+  -webkit-user-drag: none;
+  /* Evita arrasto em navegadores WebKit */
+  border: 2px solid #0aaaea;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about .content {
