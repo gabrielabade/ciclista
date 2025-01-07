@@ -1,6 +1,6 @@
 :root {
   --main-color: #0AAAEA;
-  --button-hover: #0988BB;
+  --secundary-color: #0988BB;
   --white: #FFFFFF;
   --black: #4C4B46;
   --bg: #BFE8FC;
@@ -140,8 +140,8 @@ header {
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-.btn:hover {
-  background-color: var(--button-hover);
+.btn::hover {
+  background-color: var(--secundary-color);
   transform: translateY(-2px);
   opacity: 0.9;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
