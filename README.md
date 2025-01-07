@@ -1,6 +1,7 @@
 ## Ciclista Tio Pinguinho - Loja de Bicicletas peças e acessórios
 
 Este é um projeto de página web desenvolvido para ciclista tio pinguinho, apresentando serviços oferecidos e marcas com que trabalha. A página inclui formulário para pedidos de orçamento e dúvidas. Acesso rápido às redes sociais.
+
 ---
 
 ### Funcionalidades
